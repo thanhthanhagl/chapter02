@@ -1,0 +1,56 @@
+/* Breadcrumb
+------------------------------------------------------------*/
+.c-breadcrumb {
+    li {
+        display: inline-block;
+
+        &:first-child {            
+            text-transform: uppercase;
+            position: relative;
+            padding-left: 20px;
+
+            &::before {
+                font-family: FontAwesome;
+                content: "\e3af";
+                color: #000;
+                position: absolute;
+                left: 0;
+            }
+
+            a {            
+                text-decoration: underline;
+            }
+        }
+
+        &::after {
+            font-family: FontAwesome;
+            content: "\f105";
+            color: #000;
+        }
+
+        &:last-child {
+            &::after {
+                font-family: FontAwesome;
+                content: "";
+                color: #000;  
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+    
+
+    &__top {
+        padding: 40px 0;
+    }
+
+    &__footer {
+        height: 35px;
+        border: 1px solid rgb(204, 204, 204);
+        border-left: unset;
+        border-right: unset;
+    }
+}
+  

@@ -1,0 +1,38 @@
+/* Header
+------------------------------------------------------------*/
+.c-header {    
+    
+    background: rgba(255, 255, 255, 0.9);
+
+    &__main {  
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #a8a8a8;
+        padding: 20px 0;
+    }
+}
+/* Main menu
+------------------------------------------------------------*/
+.c-gnav {
+    ul {
+    }
+
+    li {
+        display: inline-block;
+
+        + li {
+            margin-left: 20px;
+        }
+    }
+
+    a {
+        font-size: 1.6rem;
+        text-transform: capitalize;
+    }
+}
+
+.is-active {
+    font-weight: bold;
+}

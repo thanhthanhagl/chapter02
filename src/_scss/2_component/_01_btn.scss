@@ -1,0 +1,100 @@
+/*------------------------------------------------------------
+btn
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.c-btn {
+    display: block;
+    font-size: 1.6rem;
+    text-align: center;
+    width: 128px;
+    height: 35px;
+    background-color: rgb(255, 223, 223);
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+}
+
+
+.c-btn1 {    
+    &__cat1 {
+        background-color: rgb(255, 247, 153);
+    }
+
+    &__cat2 {
+        background-color: rgb(163, 211, 156);
+    }
+
+    &__cat3 {
+        background-color: rgb(255, 223, 223);
+    }
+
+    &__cat4 {
+        background-color: rgb(118, 138, 93);
+    }
+
+    &__cat5 {
+        background-color: rgb(226, 220, 220);
+    }
+}
+
+.c-btn2 {
+    position: relative;
+    width: 300px;
+    height: 65px;
+
+    &__news {
+        position: absolute;
+        background-color: rgb(255, 216, 0);
+        bottom: 0;
+        left: 50%;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        width: 300px;
+        height: 65px;
+        padding: 12px 0;
+    }
+
+    &__feature {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(246, 142, 86);
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        width: 300px;
+        height: 65px;
+        padding: 12px 0;
+    }
+
+    &__blog {
+        background-color: rgb(109, 207, 246);
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        padding: 12px 0;
+        width: 100%;
+        height: 65px;
+        margin-bottom: 115px;
+    }
+}
+
+.c-btn3{
+
+}
+
