@@ -1,0 +1,29 @@
+/*------------------------------------------------------------
+list
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.c-list {    
+    &__parent {
+        counter-reset: subsection;
+
+        &::before {
+            color: #f5989d;
+            counter-increment: section;
+            content: counter(section) ". ";
+        }
+    }
+
+    &__child {
+        padding-left: 36px;
+        line-height: 2.095;
+
+        &::before {
+            color: #f5989d;
+            counter-increment: subsection;
+            content: counter(section) "."counter(subsection) " ";
+        }
+    }
+	
+}
