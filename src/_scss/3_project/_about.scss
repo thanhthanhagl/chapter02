@@ -4,3 +4,11 @@ Css of home page
 .p-about {
     line-height: 2;
 }
+
+.c-sec {
+    &__namespace {
+        font-size: 20px;
+        color: #222;
+        font-weight: 500;
+    }
+}

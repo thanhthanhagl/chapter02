@@ -33,43 +33,33 @@ section {
 .c-mainvisual {
     padding: 15px 0;
 
+    &__titlepage {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #222;
+    }
+
     &__bg {
         position: relative;
         height: 360px;
         background: url("/assets/img/bg-banner.jpg") no-repeat center;
         background-size: cover;
-        color: #000;
     }
 
     &__inner {
         position: absolute;
+        display: flex;
+        flex-direction: column;
         text-align: left;
-        width: 400px;
-        bottom: 24px;
+        width: 402px;
+        top: 219px;
         left: 40px;
     }
 
-    &__text {
-        width: 100%;
-        font-size: 20px;
-        font-weight: 500;
-        color: rgb(34, 34, 34);
-        line-height: 1.5;
-        margin: 9px 0;
-
-    }
-
     &__btn {
-        margin: 12px 0;
-    }
-
-    //==================
-    &--subpage {
-        height: 300px;
-
-        h2 {
-            font-size: 5rem;
-        }
+        margin-bottom: 14px;
+        line-height: 2.1;
     }
 }
 
@@ -134,23 +124,24 @@ section {
     &__col2 {
         width: 61%;
         position: relative;
-        height: 190px;
+        height: 190px;     
 
+    }
 
-        button {
-            border-radius: 5px;
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            width: 150px;
-            height: 50px;
-            border: 0;
-            color: #fff;
-            font-size: 15px;
-            font-weight: 700;
-            background-color: #afafaf;
-        }
-
+    &__link {
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 150px;
+        height: 50px;
+        border: 0;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: #afafaf;
+        text-align: center;
+        line-height: 3.4;
     }
 
     &__disc {

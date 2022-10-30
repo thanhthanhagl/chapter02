@@ -4,29 +4,36 @@ table
 
 /*
 ------------------------------------------------------------*/
-.c-link2{
-    &__table{
+.c-link2 {
+    &__table {
         border-collapse: collapse;
         width: 100%;
     }
-    &__tr{
+
+    &__tr {
         height: 36px;
     }
-    &__th,&__td{
-        text-align: center;        
+
+    &__th,
+    &__td {
+        text-align: center;
         font-size: 14px;
         font-weight: 500;
         border: 1px solid #ddd;
         width: 27.5%;
     }
-    &__th{
+
+    &__th {
         background-color: #acd373;
         color: #fff;
     }
-    &__td:first-child,&__th:first-child{
+
+    &__td:first-child,
+    &__th:first-child {
         width: 17.5%;        
     }    
 }
+
 .c-table {
     border-collapse: collapse;
     width: 490px;

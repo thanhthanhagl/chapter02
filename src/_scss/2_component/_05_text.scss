@@ -11,12 +11,14 @@ text
         font-weight: 500;
         line-height: 20px;
     }
+
     &__red1 {
         color: #f5989d;
         font-size: 15px;
         font-weight: 500;
         line-height: 20px;
     }
+
     &__black {
         font-size: 15px;
         color: #222;
@@ -33,7 +35,8 @@ text
             font-size: 20px;
         }
     }
-    &__comment{
+
+    &__comment {
         &::before {
             font-family: FontAwesome;
             content: "\f075";
@@ -52,7 +55,8 @@ text
             font-size: 20px;
         }
     }
-    &__quote{
+
+    &__quote {
         &::before {
             font-family: FontAwesome;
             content: "\f10d";
@@ -60,6 +64,7 @@ text
             font-weight: 400;
             font-size: 20px;
         }
+
         &::after {
             font-family: FontAwesome;
             content: "\f10e";
@@ -68,7 +73,8 @@ text
             font-size: 20px;
         }
     }
-    &__span{
+
+    &__span {
         margin-left: 4px;
     }
     
