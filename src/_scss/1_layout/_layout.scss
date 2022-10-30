@@ -65,33 +65,35 @@ section {
 
 .c-title {
     height: 50px;
-    font-size: 24px;
-    font-weight: bold;
     margin: 2px 0;
 
     &__news {
         background-color: rgb(255, 249, 218);
         border: 2px solid #ffd800;
-        border-left-width: 5px;
+        border-left-width: 7px;
         border-left-color: rgb(255, 216, 0);
-        font-size: 24px;
+        font-size: 2.4rem;
+        line-height: 2;
         padding: 0 20px;
     }
 
     &__feature {
         background-color: rgb(255, 242, 242);
         border: 2px solid rgb(246, 142, 86);
-        border-left-width: 5px;
+        border-left-width: 7px;
         padding: 0 20px;
-        font-size: 24px;
+        font-size: 2.4rem;
+        line-height: 2;
+        margin: 3px 0 0;
     }
 
     &__blog {
         background-color: rgb(235, 235, 235);
         border: 2px solid rgb(109, 207, 246);
-        border-left-width: 5px;
+        border-left-width: 7px;
         padding: 0 20px;
-        font-size: 24px;
+        font-size: 2.4rem;
+        line-height: 2;
     }
 }
 
@@ -108,31 +110,32 @@ section {
     &__col1 {
         width: 35%;
         position: relative;
+        margin-top: -2px;        
+    }
 
-        a {
-            position: absolute;
-            top: 0;
-            left: 0;
-            padding: 1px 21px;
-            font-size: 14px;
-            text-align: center;
-            color: rgb(34, 34, 34);
-            font-weight: 400;
-        }
+    &__cat {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 1px 21px;
+        font-size: 14px;
+        text-align: center;
+        color: rgb(34, 34, 34);
+        font-weight: 400;
     }
 
     &__col2 {
         width: 61%;
         position: relative;
-        height: 190px;     
+        height: 190px;    
 
     }
 
     &__link {
         border-radius: 5px;
         position: absolute;
-        bottom: 0;
-        right: 0;
+        bottom: 3px;
+        right: 1px;
         width: 150px;
         height: 50px;
         border: 0;
@@ -141,25 +144,38 @@ section {
         font-weight: bold;
         background-color: #afafaf;
         text-align: center;
-        line-height: 3.4;
+        line-height: 3.5;
     }
 
     &__disc {
         line-height: 1.4;
-        font-size: 14px;
-        margin: 12px 0;
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+
+    &__discbottom {
+        transform: translateY(-5px);
+    }
+
+    &__discbottom1 {
+        transform: translateY(-9px);
+    }
+
+    &__discbottom2 {
+        transform: translateY(-14px);
     }
 
 
     &__title1 {
         font-size: 16px;
         font-weight: bold;
-        margin: -8px -0;
+        margin-top: -10px;
     }
 
     &__view {
         position: relative;
-        padding-top: 126px;
+        padding-top: 125px;
     }
 }
 
@@ -177,7 +193,7 @@ section {
     &__item {
         display: block;
         width: 30%;
-        padding: 30px 0 3px;
+        padding: 30px 0 2px;
     }
 
     &__disc {
@@ -201,7 +217,7 @@ section {
     }
 
     &__text {
-        font-size: 14px;
+        font-size: 1.4rem;
         font-weight: 500;
         line-height: 1.4;
         margin: 8px 0;
@@ -222,7 +238,7 @@ section {
 
 .c-blog {
     position: relative;
-    padding: 50px 0 0;
+    padding: 53px 0 0;
 
     &__list {
         display: flex;
@@ -252,7 +268,9 @@ section {
 
     &__text {
         line-height: 1.4;
-        margin: 2px 0;
+        margin-top: 2.5px;
+        font-size: 1.4rem;
+        font-weight: 500;
     }
 
     &__view {
