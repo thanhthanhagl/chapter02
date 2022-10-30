@@ -26,6 +26,7 @@
             font-family: FontAwesome;
             content: "\f105";
             color: #000;
+            margin: 0 4px;
         }
 
         &:last-child {
@@ -43,7 +44,18 @@
     
 
     &__top {
-        padding: 40px 0;
+        padding: 20px 0;
+    }
+
+    &__toplink2 {
+        padding: 25px 0;
+    }
+
+    &__bottom {
+        margin: 3px 0;
+    }
+    &__bottom2 {
+        margin: 7px 0;
     }
 
     &__footer {

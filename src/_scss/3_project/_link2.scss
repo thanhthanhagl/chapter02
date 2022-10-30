@@ -1,0 +1,163 @@
+.c-sec {
+    padding: 10px 0;
+
+    &__namepage {
+        border: 2px solid #000;
+        background-color: rgb(109, 207, 246);
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px 438px;
+        text-transform: uppercase;
+    }
+}
+
+.c-sec1 {
+    padding: 40px 0;
+    position: relative;
+
+    &__title {
+        padding: 3px 0;
+        height: 50px;
+        background-color: rgb(188, 213, 225);
+        width: 100%;
+        color: #11638a;
+        border-left: 7px solid rgb(17, 99, 138);
+    }      
+      
+    &__text {
+        margin: 5px 20px;
+        font-size: 24px;
+
+    }
+
+    &__content {
+        padding: 21px 0;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    &__content1 {
+        line-height: 20px;
+        padding: 30px 0 8px;
+    }
+
+    &__link {
+        color: #c40000;
+    }
+
+    &__textblue {
+        font-size: 16px;
+        color: #11638a;
+        font-weight: 500;
+        
+
+        &::before {
+            font-family: FontAwesome;
+            content: "\f075";
+            color: #11638a;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+
+    &__textblack {
+        padding: 7px 0;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    &__ref {
+        border: 1px solid #11638a;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    &__quote {
+        margin: 18px 28px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #11638a;
+
+        &::before {
+            font-family: FontAwesome;
+            content: "\f10d";
+            color: #11638a;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        &::after {
+            font-family: FontAwesome;
+            content: "\f10e";
+            color: #11638a;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+      
+
+}
+
+.c-sec2 {
+    padding: 29px 0 94px;
+    position: relative;
+
+    &__title {
+        padding: 3px 0;
+        height: 50px;
+        background-color: #ffe8e9;
+        width: 100%;
+        border-left: 7px solid #f5989d;
+        color: #f5989d;
+    }      
+      
+    &__text {
+        margin: 5px 20px;
+        font-size: 24px;
+
+    }
+
+    &__first {
+        padding: 20px 0 30px;
+    }
+
+    &__paragraph {
+        padding: 5px 0 28px;
+    }
+
+    &__listing {
+        counter-reset: section;
+        line-height: 1.9;
+    }
+    &__four{
+        padding: 24px 0 30px;
+    }
+
+    &__ref {
+        border: 1px solid #11638a;
+        border-radius: 5px;
+        width: 100%;
+    }
+    &__paragraph2 {
+        margin: 10px 0;
+        padding: 16px 26px;
+        border: 1px solid #f5989d;
+        border-radius: 5px;
+    }
+    &__paragraph3 {
+        padding: 26px 0 10px;
+    }
+    &__fifth{
+        margin-left: -3px
+    }     
+    &__paragraph4{
+        padding: 5px 0px;
+    } 
+
+}
+
+
+

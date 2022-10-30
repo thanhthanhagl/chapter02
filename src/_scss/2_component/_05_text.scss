@@ -4,3 +4,72 @@ text
 
 /*
 ------------------------------------------------------------*/
+.c-link2 {
+    &__red {
+        color: #f5989d;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    &__red1 {
+        color: #f5989d;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    &__black {
+        font-size: 15px;
+        color: #222;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    &__seeding {
+        &::before {
+            font-family: FontAwesome;
+            content: "\f4d8";
+            color: #f5989d;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+    &__comment{
+        &::before {
+            font-family: FontAwesome;
+            content: "\f075";
+            color: #f5989d;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+
+    &__palette {
+        &::before {
+            font-family: FontAwesome;
+            content: "\f53f";
+            color: #f5989d;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+    &__quote{
+        &::before {
+            font-family: FontAwesome;
+            content: "\f10d";
+            color: #f5989d;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        &::after {
+            font-family: FontAwesome;
+            content: "\f10e";
+            color: #f5989d;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+    &__span{
+        margin-left: 4px;
+    }
+    
+}
