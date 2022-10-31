@@ -10,8 +10,9 @@
             padding-left: 20px;
 
             &::before {
-                font-family: FontAwesome;
-                content: "\e3af";
+                font-family: "Font Awesome 5 Free";
+                content: "\f015";
+                font-weight: 900;
                 color: #000;
                 position: absolute;
                 left: 0;
@@ -23,15 +24,16 @@
         }
 
         &::after {
-            font-family: FontAwesome;
+            font-family: "Font Awesome 5 Free";
             content: "\f105";
+            font-weight: 900;
             color: #000;
             margin: 0 4px;
         }
 
         &:last-child {
             &::after {
-                font-family: FontAwesome;
+                font-family: "Font Awesome 5 Free";
                 content: "";
                 color: #000;  
             }
@@ -40,11 +42,17 @@
                 text-decoration: none;
             }
         }
-    }
-    
+    }   
 
     &__top {
         padding: 20px 0;
+    }
+    &__link{
+        font-weight: 500;
+    }
+    &__link2{
+        line-height: 2.2;
+        font-weight: 500;
     }
 
     &__toplink2 {
@@ -52,7 +60,7 @@
     }
 
     &__bottom {
-        margin: 3px 0;
+        margin: 2px 0;
     }
 
     &__bottom2 {

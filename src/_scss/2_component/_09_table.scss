@@ -17,8 +17,8 @@ table
     &__th,
     &__td {
         text-align: center;
-        font-size: 14px;
         font-weight: 500;
+        line-height: 1.4;
         border: 1px solid #ddd;
         width: 27.5%;
     }
@@ -37,7 +37,6 @@ table
 .c-table {
     border-collapse: collapse;
     width: 490px;
-    padding: 15px 0;
 }
 
 .c-tr {
@@ -47,12 +46,15 @@ table
 .c-th,
 .c-td {
     text-align: center;
+    font-weight: 500;
+    line-height: 1.4;
     border: 1px solid #ddd;
 }
 
-.c-tr .c-td:first-child {
-    background-color: ece6e6;
-    width: 67px;
+.c-td:first-child {
+    background-color: #ece6e6;
+    width: 65px;
+
 }
 
 .c-tr:last-child .c-td:first-child {
@@ -62,27 +64,28 @@ table
 .c-th {
     background-color: #acd373;
     color: #fff;
-    font-size: 14px;
 }
 
 .c-tablesecond {
     border-collapse: collapse;
-    width: 490px;
     padding: 15px 0;
-    font-size: 14px;
     font-weight: 500;
     text-align: center;
 }
 
 .c-trsecond {
-    height: 36px;
+    height: 35px;
+}
+.c-trsecond1 {
+    height: 37px;
 }
 
 .c-tdsecond {
     border: 1px solid #ddd;
+    width: 144px;
 }
 
 .c-tdsecond:first-child {
     background-color: #ece6e6;
-    width: 67px;
+    width: 66px;
 }

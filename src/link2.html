@@ -1,54 +1,72 @@
 <%- include('_layouts/layout', {
-    title: 'Link1 page'
+    title: 'Link2 page'
 }); -%>
 
 <!-- @content -->
     <main class="p-link2">
         <div class="l-container">
-            <!-- @breadcrumb-->    
+            <!-- breadcrumb-->    
             <section class="c-breadcrumb">
                 <div class="c-breadcrumb__toplink2">
                     <ul class="c-breadcumb__link">
                         <li>
-                          <a href="/">Home</a>
+                          <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="/">Link2</a>
+                            Link2
                         </li>
                       </ul> 
                   </div>      
             </section>
-            <!-- @breadcrumb--> 
+            <!-- end breadcrumb-->
+            <!-- namepage--> 
             <section class="c-sec">
                 <div class="c-sec__namepage">
-                    <h1>Link 2</h1>
+                    <h1 class="c-sec__title">Link 2</h1>
                 </div> 
             </section>  
+            <!-- end namepage-->
+            <!-- Title 1--> 
             <section class="c-sec1">
                 <div class="c-sec1__title">
                     <h2 class="c-sec1__text">Title 1</h2>
                 </div>
                 <div class="c-sec1__content">
-                    <span>
+                    <p>
                         Text text text text text text text text 
-                        <a href="#" class="c-sec1__link">text text text text text text text t</a>ext text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
-                        <a href="#" class="c-sec1__link">text text text text text text text</a> text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
-                    </span>
+                        <a href="#" class="c-sec1__link">text text text text text text text t</a>ext text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+                    </p>
+                    <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                        <a href="#" class="c-sec1__link">text text text text text text text</a> text text text text text text text text text text text text text text 
+                    </p>
+                    <p>
+                        text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                    </p>
                 </div>   
                 <div class="c-sec1__content1">
                     <div>
-                        <span class="c-sec1__textblue"> Text text text text text text text text text text</span>
+                        <p class="c-sec1__textblue"> Text text text text text text text text text text</p>
                     </div>
                     <div class="c-sec1__textblack">
-                        <span >Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </span>
+                        <p >Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
                 
                     </div>
                 </div>   
                 <div class="c-sec1__ref">
-                    <div class="c-sec1__quote">Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                    <div class="c-sec1__quote">
+                        Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                        <p class="c-sec1__quoteleft">                        
+                        text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+                        text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+                        </p>
+                        <p class="c-sec1__quotebottom">
+                            text text text text text text text text text text text text text text text text text text 
+                        </p>
                     </div>
                 </div>
-            </section>   
+            </section> 
+            <!-- end Title 1--> 
+            <!-- Title 2--> 
             <section class="c-sec2">
                 <div class="c-sec2__title">
                     <h2 class="c-sec2__text">Title 2</h2>
@@ -78,11 +96,11 @@
                         <ul>
                             <li class="c-list__parent">Text text text text</li>
                             <li class="c-list__parent">Text text text text text text text</li>
-                            <li class="c-list__parent">Text text text text</li>
+                            <li class="c-list__parent u-mt1">Text text text text</li>
                             <ul>                                
                                 <li class="c-list__child">Text text text text</li>
                                 <li class="c-list__child">Text text text texttext text text text</li>
-                                <li class="c-list__child">Text text text text</li>
+                                <li class="c-list__child u-mt01">Text text text text</li>
                             </ul>
                         </ul>
                 
@@ -97,12 +115,16 @@
                             Text text text text text text text text text text text text text text text text text text
                         </span>
                     </div>
-                    <div class="c-link2__red1 c-link2__quote c-sec2__paragraph2">
-                        <span >
-                            Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
-                            text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
-                            text text text text text text text text text
-                        </span>
+                    <div class="c-sec2__paragraph2">                        
+                        <div class="c-sec2__quote">
+                            <p class="c-sec2__red1">   
+                                <span class="c-sec2__left"></span>                       
+                                Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                                text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                                text text text text text text text text text    
+                                <span class="c-sec2__right"></span>                      
+                            </p>    
+                        </div>                    
                     </div>
                     <div class="c-link2__black c-sec2__paragraph3">
                         <span >
@@ -140,21 +162,24 @@
                           </table>
                     </div>                    
                 </div> 
-            </section>                  
+            </section>    
+            <!-- end Title 2-->              
         </div>         
+        <!-- breadcrumb--> 
         <section class="c-breadcrumb c-breadcrumb__footer">
             <div class="l-container">
                 <div class="c-breadcrumb__bottom2">
                     <ul class="c-breadcumb__link">
                         <li>
-                          <a href="/">Home</a>
+                          <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="/">Link2</a>
+                            Link2
                         </li>
                       </ul>
                   </div>
             </div>
         </section> 
+        <!-- end breadcrumb--> 
     </main>
 <!-- @@content -->

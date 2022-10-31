@@ -7,70 +7,48 @@ text
 .c-link2 {
     &__red {
         color: #f5989d;
-        font-size: 16px;
+        font-size: 1.6rem;
         font-weight: 500;
-        line-height: 20px;
+        line-height: 1.7;
     }
 
-    &__red1 {
-        color: #f5989d;
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 20px;
-    }
+    
 
     &__black {
-        font-size: 15px;
+        font-size: 1.5rem;
         color: #222;
         font-weight: 500;
-        line-height: 20px;
+        line-height: 1.3;
     }
 
     &__seeding {
         &::before {
-            font-family: FontAwesome;
+            font-family: "Font Awesome 5 Free";
             content: "\f4d8";
             color: #f5989d;
-            font-weight: 400;
-            font-size: 20px;
+            font-weight: 900;
+            font-size: 1.7rem;
+            line-height: 1.7;
         }
     }
 
     &__comment {
         &::before {
-            font-family: FontAwesome;
+            font-family: "Font Awesome 5 Free";
             content: "\f075";
             color: #f5989d;
-            font-weight: 400;
-            font-size: 20px;
+            font-weight: 900;
+            font-size: 2rem;
         }
     }
 
     &__palette {
         &::before {
-            font-family: FontAwesome;
+            font-family:"Font Awesome 5 Free";
             content: "\f53f";
             color: #f5989d;
-            font-weight: 400;
-            font-size: 20px;
-        }
-    }
-
-    &__quote {
-        &::before {
-            font-family: FontAwesome;
-            content: "\f10d";
-            color: #f5989d;
-            font-weight: 400;
-            font-size: 20px;
-        }
-
-        &::after {
-            font-family: FontAwesome;
-            content: "\f10e";
-            color: #f5989d;
-            font-weight: 400;
-            font-size: 20px;
+            font-weight: 900;
+            font-size: 2rem;
         }
     }
 

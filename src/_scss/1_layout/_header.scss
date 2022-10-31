@@ -16,9 +16,7 @@
 /* Main menu
 ------------------------------------------------------------*/
 .c-gnav {
-    ul {
-    }
-
+    font-weight: 500;
     li {
         display: inline-block;
 
@@ -28,7 +26,6 @@
     }
 
     a {
-        font-size: 14px;
         text-transform: capitalize;
     }
 }
