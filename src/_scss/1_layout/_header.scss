@@ -10,17 +10,19 @@
         align-items: center;
         justify-content: space-between;
         border-bottom: 1px solid #a8a8a8;
-        padding: 20px 0;
+        height: 90px;
     }
 }
 /* Main menu
 ------------------------------------------------------------*/
 .c-gnav {
     font-weight: 500;
+    line-height: 3;
+
     li {
         display: inline-block;
 
-        + li {
+        + li{
             margin-left: 28px;
         }
     }
@@ -32,4 +34,5 @@
 
 .is-active {
     font-weight: bold;
+    line-height: 3;
 }
