@@ -5,15 +5,6 @@ text
 /*
 ------------------------------------------------------------*/
 .c-link2 {
-    &__red {
-        color: #f5989d;
-        font-size: 1.6rem;
-        font-weight: 500;
-        line-height: 1.7;
-    }
-
-    
-
     &__black {
         font-size: 1.5rem;
         color: #222;
@@ -27,7 +18,7 @@ text
             content: "\f4d8";
             color: #f5989d;
             font-weight: 900;
-            font-size: 1.7rem;
+            font-size: 2rem;
             line-height: 1.7;
         }
     }
