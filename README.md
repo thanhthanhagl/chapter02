@@ -14,4 +14,3 @@ https://drive.google.com/drive/folders/1KnXdGMcAVLDEpUc8CFoU1UNKQkcqQQ6t?usp=sha
 **Nhiệm vụ và điểm quan trọng**
 
 - Code chính xác và nhanh chóng.
--https://docs.google.com/spreadsheets/d/10lN-MeNcIY-7jLtatqRJces_FOW_Zbxc8EUGJOKWC4s/edit#gid=94760798
