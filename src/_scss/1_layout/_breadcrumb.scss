@@ -48,20 +48,23 @@
     }   
 
     &__top {
-        padding: 20px 0;
+        padding: 22px 0 19px;
+    }
+
+    &__top--link1 {
+        padding: 21px 0 18px;
     }
 
     &__link {
         font-weight: 500;
     }
 
-    &__link2 {
+    &__link2 li {
         line-height: 2.2;
-        font-weight: 500;
     }
 
     &__toplink2 {
-        padding: 25px 0;
+        padding: 26px 0 24px;
     }
 
     &__bottom {
