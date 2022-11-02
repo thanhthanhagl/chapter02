@@ -31,7 +31,7 @@ section {
 
 
 .c-mainvisual {
-    padding: 15px 0 14px;
+    padding: 15px 100px 14px;
 
     &__titlepage {
         font-size: 2rem;
@@ -44,7 +44,7 @@ section {
     &__bg {
         position: relative;
         height: 360px;
-        background: url("../img/bg-banner.jpg") no-repeat center;
+        background: url("../assets/img/bg-banner.jpg") no-repeat center;
         background-size: cover;
     }
 
@@ -444,8 +444,9 @@ section {
         color: rgb(34, 34, 34);
         font-weight: 500;
     }
+
     &__tag2 {
-        padding: 6px 21.5px;
+        padding: 6px 23.5px;
         text-align: center;
         color: rgb(34, 34, 34);
         font-weight: 500;
