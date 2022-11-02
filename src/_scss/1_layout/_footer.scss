@@ -2,17 +2,17 @@
 footer
 ------------------------------------------------------------*/
 .c-footer {
-    background: #fff;
+    background-color: rgb(250, 250, 250);
     color: #000;
     text-align: center;
 
     &__top {
         text-align: left;
         padding: 30px 0 35px;
+        margin: 0 auto;
         display: flex;
         column-gap: 50px;
         clear: both;
-        background-color: rgb(250, 250, 250);
     }
 
     &__title {
@@ -92,6 +92,7 @@ footer
 
 
     &__copyright {
+        background-color: #fff;
         padding: 17px;
         font-size: 1.2rem;
         font-weight: 500;
